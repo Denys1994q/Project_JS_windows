@@ -8,7 +8,7 @@ import images from './modules/images';
 
 window.addEventListener('DOMContentLoaded', () => { // скріпти починають працювати коли загрузилася верстка
     'use strict'
-
+    console.log('GIT check')
     let modalState = {
         'form': 1,
         'type': 'tree'
